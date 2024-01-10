@@ -1,0 +1,86 @@
+/*Emwika Nanong, 09-12-2023, Chapter 4 */
+body, header, nav, main, footer, h1, div, img { /*css reset*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+} 
+
+body { /*body css*/
+  height: 100%;
+    width: 100%;
+    background-color: #d1d1e0;
+    padding: 2%;
+}
+header h1 { /*header analyze04*/
+  text-align: center;
+  color: #47476b;
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    
+} 
+nav { /*navigation analyze04*/
+    background-color: #47476b;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none; 
+} 
+nav ul {
+  margin: 0;  
+  list-style-type: none;
+  text-align: center;
+} 
+nav li {
+    display: inline-block;
+    font-size: 1.5em; 
+  font-family: Verdana, Arial, sans-serif; 
+  font-weight: bold;
+  display: inline-block;
+} 
+nav li a {
+  display: block; 
+  color: #e3eaf8; 
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+#css1, #css2, #css3 {
+    width: 30%;
+    float: left;
+    padding: 0 1%; 
+    text-decoration: none;
+}
+main { /*main analyze04*/
+    font-family: Geneva, Arial, sans-serif;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  overflow: auto;
+}
+main a {
+  color: #47476b;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+main p {
+    font-size: 1.25em;
+}
+main h3 {
+    padding-top: 2%;
+    font-size: 2em;
+}
+main dt {
+  font-weight: bold;
+}
+main dd {
+  padding: 0.5% 1% 2% 0;
+}
+
+footer { /*footer analyze04*/
+  clear: both;
+  text-align: center;
+  font-size: 0.85em;
+  color: #47476b;
+  padding: 1% 0;
+  border-top: 1px solid #47476b;
+} 
+
